@@ -1,0 +1,94 @@
+body{
+
+    background-color:#f2f2f2;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+ 
+
+.nav-main {
+    background-color: #e0e0e0;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 10px 20px;
+
+}
+
+ 
+
+.nav-object {
+
+    padding: 2em;
+
+    width: 50%;
+
+    font-size: 30px;
+
+}
+
+ 
+
+.logo {
+
+    width: 50%;
+
+    max-width: 170px;
+
+}
+
+ 
+
+.picture {
+
+    max-width: 150px;
+    margin: 0 10px;
+
+}
+
+ 
+
+.foot {
+
+    background-color: #333;
+
+    color: white;
+
+    padding: 10px;
+
+    text-align: center;
+
+}
+
+ 
+
+.project-main {
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    margin: 20px 0;
+
+}
+
+ 
+
+.project1 img,
+
+.project2 img,
+
+.project3 img {
+
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+}
+

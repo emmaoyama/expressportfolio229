@@ -1,0 +1,93 @@
+<!-- views/contact.ejs -->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Contact - My Portfolio</title>
+
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+
+ 
+
+  <script defer src="/js/form.js"></script>
+
+</head>
+
+<body>
+
+  <%- include("partials/_header") %>
+
+   <div class="contact-main">
+
+    <div class="contact-info">
+
+     
+
+    </div>
+
+    <div >
+
+      <h2>Contact Me</h2>
+
+      <form action="/" method="POST" class="form">
+
+        <br>
+
+        <br>
+
+        <input type="text" id="firstName" name="firstName" placeholder="FirstName" >
+
+        <br>
+
+        <br>
+
+       
+
+        <input type="text" id="lastName" name="lastName" placeholder="LastName">
+
+        <br>
+
+        <br>
+
+     
+
+        <input type="tel" id="contactNumber" name="contactNumber" placeholder="444-444-4444">
+
+        <br>
+
+        <br>
+
+       
+
+        <input type="email" id="email" name="email" placeholder="email@address.net">
+
+        <br>
+
+        <br>
+
+       
+
+        <textarea id="message" name="message" rows="10" cols="40" placeholder="Enter Your Message"></textarea>
+
+    <br>
+
+    <br>
+
+        <button type="submit" id="submit" >Send</button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</body>
+
+<%- include("partials/_footer") %>
+
+</html>
